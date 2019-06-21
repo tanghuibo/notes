@@ -13,6 +13,6 @@ cd publish
 sudo rm -rf *
 #拷贝_book下的文件
 cp -r ../_book/. ./
-#提交文件
-publish/.push.sh "$1"
-
+#提示用户提交文件
+echo "请手动运行: publish/.push.sh \"$1\" (命令已被复制到剪切板)" 
+echo "publish/.push.sh \"$1\"" | xclip -selection clipboard 

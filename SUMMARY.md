@@ -1,6 +1,8 @@
 # Summary
+
 * [前言](README.md)
 
-### 工具篇
-* [vscode设置](工具篇/vscode设置.md)
+## 工具篇
 
+* [gitbook使用教程](工具篇/gitbook使用教程.md)
+* [vscode设置](工具篇/vscode设置.md)
