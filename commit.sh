@@ -1,7 +1,7 @@
 gitbook build
 git add .
 git commit -m "$1"
-git push
+git push --set-upstream origin master
 cd _book
 git init
 git remote add origin git@github.com:tanghuibo/notes.git
