@@ -16,6 +16,6 @@ cp -r ../_book/. ./
 git add .
 #提交注释
 git commit -m "$1"
-#推到远端
-git push
+#推到远端 权限存在问题
+echo "请手动psh"
 
