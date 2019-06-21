@@ -14,5 +14,5 @@ sudo rm -rf *
 #拷贝_book下的文件
 cp -r ../_book/. ./
 #提示用户提交文件
-echo "请手动运行: push.sh \"$1\" (命令已被复制到剪切板)" 
-echo "push.sh \"$1\"" | xclip -selection clipboard 
+echo "请手动运行: ./.push.sh \"$1\" (命令已被复制到剪切板)" 
+echo "./.push.sh \"$1\"" | xclip -selection clipboard 
