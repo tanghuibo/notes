@@ -12,9 +12,5 @@ cd publish
 sudo rm -rf *
 #拷贝_book下的文件
 cp -r ../_book/. ./
-#添加所有文件到暂存区
-git add .
-#提交注释
-git commit -m "$1"
 #推到远端
-source publish/push
+source publish/push "$1"
