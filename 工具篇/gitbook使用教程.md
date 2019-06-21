@@ -73,11 +73,11 @@ yarn global add gitbook-cli
 
 修改完成后运行 `gitbook install` 安装插件，重启后完成安装
 
-## 将GITBOOK发布到GITHUB
+## 将gitbook发布到github
 
 1. 在github工程上新建分支`gh-pages`
 
-2. 讲_book底下的文件提交到`gh-pages`分之
+2. 将打包文件夹_book下的文件提交到`gh-pages`分支
 
 以该工程为例，该工程的代码托管在[https://github.com/tanghuibo/notes/tree/master](https://github.com/tanghuibo/notes/tree/master)
 
