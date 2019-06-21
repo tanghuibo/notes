@@ -17,5 +17,5 @@ git add .
 #提交注释
 git commit -m "$1"
 #推到远端
-git push
+sudo git push
 
