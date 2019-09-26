@@ -7,6 +7,7 @@
 * [vscode设置](工具篇/vscode设置.md)
 * [chrome插件安装](工具篇/chrome插件安装.md)
 * [postman转换CURL](工具篇/postman转换CURL.md)
+* [mysql使用JSON](工具篇/mysql使用JSON.md)
 
 ## 基础篇
 * [java多线程](基础篇/java多线程.md)
