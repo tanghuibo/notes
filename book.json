@@ -3,7 +3,7 @@
     "author": "Tanghuibo",
     "description": "select * from learn",
     "language": "zh-hans",
-    "gitbook": "3.2.3",
+    "gitbook": "latest",
     "plugins": [
         "-sharing",
         "expandable-chapters-small",
