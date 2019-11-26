@@ -3,41 +3,5 @@
     "author": "Tanghuibo",
     "description": "select * from learn",
     "language": "zh-hans",
-    "gitbook": "latest",
-    "plugins": [
-        "-sharing",
-        "expandable-chapters-small",
-        "expandable-chapters",
-        "github",
-        "sharing-plus",
-        "chapter-fold"
-    ],
-    "pluginsConfig": {
-        "github": {
-            "url": "https://github.com/tanghuibo"
-        },
-        "sharing": {
-            "douban": false,
-            "facebook": false,
-            "google": false,
-            "hatenaBookmark": false,
-            "instapaper": false,
-            "line": false,
-            "linkedin": false,
-            "messenger": false,
-            "pocket": false,
-            "qq": false,
-            "qzone": false,
-            "stumbleupon": false,
-            "twitter": false,
-            "viber": false,
-            "vk": false,
-            "weibo": false,
-            "whatsapp": false,
-            "all": [
-                "google", "facebook", "weibo", "twitter",
-                "qq", "qzone", "linkedin", "pocket"
-            ]
-        }
-    }
+    "gitbook": "latest"
 }
