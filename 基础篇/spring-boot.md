@@ -7,7 +7,7 @@
 - 注入beanFactory(BeanFactoryAware)
 - 注入ApplicationContext(ApplicationContextAware)
 - 执行BeanPostProcessor的postProcessBeforeInitialization方法
-- 执行postConstruct方法(@postConstruct)
+- 执行postConstruct方法(@PostConstruct)
 - 执行InitializingBean的afterPropertiesSet方法
 - 执行initMethod方法
 - 执行BeanPostProcessor的postProcessAfterInitialization方法
