@@ -10,7 +10,7 @@ github pages可以通过在github托管代码生成静态站点，支持`html`�
 
 ![avatar](../screenshots/工具箱/githubPages/setting-1.png)
 
-### 滑动到靠下位置，找到`github pages`
+### 滑动到靠下位置，找到“github pages”
 
 ![avatar](../screenshots/工具箱/githubPages/setting-2.png)
 
