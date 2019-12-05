@@ -79,8 +79,4 @@ yarn global add gitbook-cli
 
 2. 将打包文件夹_book下的文件提交到`gh-pages`分支
 
-以该工程为例，该工程的代码托管在[https://github.com/tanghuibo/notes/tree/master](https://github.com/tanghuibo/notes/tree/master)
-
-生成的_book文件托管在[https://github.com/tanghuibo/notes/tree/gh-pages](https://github.com/tanghuibo/notes/tree/gh-pages)
-
-于是便可以通过[https://tanghuibo.github.io/notes/](https://tanghuibo.github.io/notes/)展示gitbook
+3. 通过`用户名.github.io/项目名`访问
