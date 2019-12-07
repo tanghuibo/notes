@@ -10,8 +10,11 @@
 ## 基础篇
 * [java多线程](基础篇/java多线程.md)
 * [设计模式](基础篇/设计模式.md)
-* [spring-boot](基础篇/spring-boot.md)
-* [spring-mvc](基础篇/spring-mvc.md)
+* [spring boot](基础篇/spring-boot.md)
+* [spring mvc](基础篇/spring-mvc.md)
+* [spring mvc](基础篇/spring-mvc.md)
+* [synchronized](基础篇/synchronized.md)
+* [volatile](基础篇/volatile.md)
 
 ## 工作篇
 * [遇到的坑](工作篇/遇到的坑.md)
