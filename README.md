@@ -17,6 +17,8 @@
 * [spring mvc](基础篇/spring-mvc.md)
 * [synchronized](基础篇/synchronized.md)
 * [volatile](基础篇/volatile.md)
+* [AQS](基础篇/AQS.md)
+* [ThreadLocal](基础篇/ThreadLocal.md)
 
 ## 工作篇
 
