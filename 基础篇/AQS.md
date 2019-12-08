@@ -130,8 +130,6 @@ private void unparkSuccessor(Node node) {
 
 防止 其他线程使用 cas 设置node的next （正常节点不可能存在node.next = node）
 
-新节点pre指向tail，tail指向新节点，这里后继指向前驱的指针是由CAS操作保证线程安全的。而cas操作之后t.next=node之前，可能会有其他线程进来。所以出现了问题，从尾部向前遍历是一定能遍历到所有的节点。
-
 ## CountDownLatch 和 CyclicBarrier
 
 - 都是计数到0的时候触发

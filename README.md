@@ -19,6 +19,7 @@
 * [volatile](基础篇/volatile.md)
 * [AQS](基础篇/AQS.md)
 * [ThreadLocal](基础篇/ThreadLocal.md)
+* [Java内存模型](基础篇/Java内存模型.md)
 
 ## 工作篇
 
