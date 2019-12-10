@@ -20,6 +20,8 @@
 * [AQS](基础篇/AQS.md)
 * [ThreadLocal](基础篇/ThreadLocal.md)
 * [Java内存模型](基础篇/Java内存模型.md)
+* [Java常量池](基础篇/Java常量池.md)
+* [Java对象](基础篇/Java对象.md)
 
 ## 工作篇
 
