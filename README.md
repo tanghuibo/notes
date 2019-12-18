@@ -8,6 +8,7 @@
 - [postman 转换 CURL](工具篇/postman转换CURL.md)
 - [mysql 使用 JSON](工具篇/mysql使用JSON.md)
 - [github pages 使用教程](工具篇/githubPages使用教程.md)
+- [IDEA安全回滚代码](工具篇/IDEA安全回滚代码.md)
 
 ## 基础篇
 
