@@ -1,12 +1,12 @@
-# Github pages使用教程
+# Github pages 使用教程
 
-## github pages简介
+## github pages 简介
 
-github pages可以通过在github托管代码生成静态站点，支持`html`和`md`格式，通过github pages生成站点后，便可通过`用户名.github.io/项目名`访问站点
+github pages 可以通过在 github 托管代码生成静态站点，支持`html`和`md`格式，通过 github pages 生成站点后，便可通过`用户名.github.io/项目名`访问站点
 
 ## 配置
 
-### 进入项目setting配置
+### 进入项目 setting 配置
 
 ![avatar](../screenshots/工具箱/githubPages/setting-1.png)
 
@@ -22,7 +22,7 @@ github pages可以通过在github托管代码生成静态站点，支持`html`�
 
 根站点默认使用`index.html`
 
-### 当代码为md格式时，可以为其配置样式
+### 当代码为 md 格式时，可以为其配置样式
 
 样式配置在`_config.yml`中。
 
@@ -35,4 +35,3 @@ theme: jekyll-theme-cayman
 样式选择见: [https://github.com/tanghuibo/notes/settings/pages/themes](https://github.com/tanghuibo/notes/settings/pages/themes)
 
 根站点默认使用`README.md`
-

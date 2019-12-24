@@ -1,4 +1,4 @@
-# GITBOOK使用教程
+# GITBOOK 使用教程
 
 ## 简介
 
@@ -8,12 +8,12 @@ GitBook 是一个基于 Node.js 的命令行工具，可使用 Github/Git 和 Ma
 
 需要提前安装[nodejs](http://nodejs.cn/download/)
 
-安装gitbook
+安装 gitbook
 
 ```bash
 npm i -g gitbook-cli
 或
-yarn global add gitbook-cli 
+yarn global add gitbook-cli
 ```
 
 ## 使用
@@ -38,20 +38,23 @@ yarn global add gitbook-cli
 
 ```markdown
 # Summary
-* [前言](README.md)
+
+- [前言](README.md)
 
 ### PART 1
-* [PART1.1](PART1/1.md)
-* [PART1.2](PART1/2.md)
+
+- [PART1.1](PART1/1.md)
+- [PART1.2](PART1/2.md)
 ```
 
 ```markdown
 # Summary
-* [前言](README.md)
 
-* [PART1](PART1.md)
-    * [PART1.1](PART1/1.md)
-    * [PART1.2](PART1/2.md)
+- [前言](README.md)
+
+- [PART1](PART1.md)
+  - [PART1.1](PART1/1.md)
+  - [PART1.2](PART1/2.md)
 ```
 
 ## 插件安装 & 配置
@@ -60,23 +63,21 @@ yarn global add gitbook-cli
 
 ```json
 {
-    "plugins": [
-        "github"
-    ],
-    "pluginsConfig": {
-        "github": {
-            "url": "https://github.com/tanghuibo"
-        }
+  "plugins": ["github"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/tanghuibo"
     }
+  }
 }
 ```
 
 修改完成后运行 `gitbook install` 安装插件，重启后完成安装
 
-## 将gitbook发布到github
+## 将 gitbook 发布到 github
 
-1. 在github工程上新建分支`gh-pages`
+1. 在 github 工程上新建分支`gh-pages`
 
-2. 将打包文件夹_book下的文件提交到`gh-pages`分支
+2. 将打包文件夹\_book 下的文件提交到`gh-pages`分支
 
 3. 通过`用户名.github.io/项目名`访问

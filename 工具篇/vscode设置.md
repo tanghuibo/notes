@@ -1,4 +1,4 @@
-# vscode设置
+# vscode 设置
 
 ## 快捷键
 
@@ -6,7 +6,8 @@
 | -------------------------------- | ---- |
 | workbench.action.navigateForward | 前进 |
 | workbench.action.navigateBack    | 后退 |
--------------------
+
+---
 
 ## 设置
 
