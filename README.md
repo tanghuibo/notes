@@ -8,7 +8,8 @@
 - [postman 转换 CURL](工具篇/postman转换CURL.md)
 - [mysql 使用 JSON](工具篇/mysql使用JSON.md)
 - [github pages 使用教程](工具篇/githubPages使用教程.md)
-- [IDEA安全回滚代码](工具篇/IDEA安全回滚代码.md)
+- [IDEA 安全回滚代码](工具篇/IDEA安全回滚代码.md)
+- [mac os 开启 80 端口](工具篇/macOs开启80端口.md)
 
 ## 基础篇
 
@@ -34,6 +35,7 @@
 ## 工作篇
 
 - [服务停用导致消息积压](工作篇/服务停用导致消息积压.md)
+- [mybaits 远古 BUG 踩坑记](工作篇/mybaits远古BUG踩坑记.md)
 
 ## gitbook 地址
 
