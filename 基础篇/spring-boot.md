@@ -1,16 +1,17 @@
 # spring-boot
 
-## bean初始化步骤
+## bean 初始化步骤
 
 - 执行构造方法
-- 注入beanName(BeanNameAware)
-- 注入beanFactory(BeanFactoryAware)
-- 注入ApplicationContext(ApplicationContextAware)
-- 执行BeanPostProcessor的postProcessBeforeInitialization方法
-- 执行postConstruct方法(@PostConstruct)
-- 执行InitializingBean的afterPropertiesSet方法
-- 执行initMethod方法
-- 执行BeanPostProcessor的postProcessAfterInitialization方法
+- 注入 beanName(BeanNameAware)
+- 注入 beanFactory(BeanFactoryAware)
+- 注入 ApplicationContext(ApplicationContextAware)
+- 执行 BeanPostProcessor 的 postProcessBeforeInitialization 方法
+- 执行 postConstruct 方法(@PostConstruct)
+- 执行 InitializingBean 的 afterPropertiesSet 方法
+- 执行 initMethod 方法
+- 执行 BeanPostProcessor 的 postProcessAfterInitialization 方法
 
 ## 脑图
+
 ![avatar](../screenshots/基础篇/spring-boot/spring-boot.png)
