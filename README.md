@@ -10,6 +10,7 @@
 - [github pages 使用教程](工具篇/githubPages使用教程.md)
 - [IDEA 安全回滚代码](工具篇/IDEA安全回滚代码.md)
 - [mac os 开启 80 端口](工具篇/macOs开启80端口.md)
+- [企业级 github 汇总](工具篇/企业级github汇总.md)
 
 ## 基础篇
 
