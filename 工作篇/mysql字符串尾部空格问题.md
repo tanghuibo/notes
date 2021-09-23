@@ -9,7 +9,7 @@ select 'a ' = 'a'
 -- result: 1
 ```
 
-如果未更新或新增语句，则尾部空格不会被忽略，如:
+如果为更新或新增语句，则尾部空格不会被忽略，如:
 
 ```sql
 insert into table_a(value_data) values('a ') 
