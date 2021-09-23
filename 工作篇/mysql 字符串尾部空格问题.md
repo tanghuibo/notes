@@ -27,6 +27,8 @@ insert into table_a(value_data) values('a ')
 
 ### 方案1: 设置字符集 (此方法只对新建的表有效)，要求 mysql 版本为 `8.0.17` 以上
 
+![mysql-uft-bin](../screenshots/工作篇/mysql_utf_bin.png)
+
 ```sql
 ALTER DATABASE `tast_db` CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_bin; 
 -- or ALTER DATABASE `tast_db` CHARACTER SET utf8mb4 COLLATE utf8mb4_bin; 
