@@ -37,6 +37,7 @@
 
 - [服务停用导致消息积压](工作篇/服务停用导致消息积压.md)
 - [mybaits 远古 BUG 踩坑记](工作篇/mybaits远古BUG踩坑记.md)
+- [mysql 字符串尾部空格问题](工作篇/mysql 字符串尾部空格问题.md)
 
 ## gitbook 地址
 
