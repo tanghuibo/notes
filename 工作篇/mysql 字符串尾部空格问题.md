@@ -25,14 +25,19 @@ insert into table_a(value_data) values('a ')
 
 ## 解决方案
 
-1. 设置字符集 (此方法只对新建的表有效)
+### 方案1: 设置字符集 (此方法只对新建的表有效)，要求 mysql 版本为 `8.0.17` 以上
 
 ```sql
 ALTER DATABASE `tast_db` CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_bin; 
+-- or ALTER DATABASE `tast_db` CHARACTER SET utf8mb4 COLLATE utf8mb4_bin; 
 ```
 
-2. 使用 `binary`
+副作用: mysql 将区分大小写
+
+### 方案2: 使用 `binary`
 
 ```sql
 select 'a ' = binary'a'
 ```
+
+副作用: mysql 将区分大小写
