@@ -102,3 +102,7 @@ public Object invoke(int index, Object obj, Object[] args){
 mock aop 类
 
 [http://objenesis.org/tutorial.html](http://objenesis.org/tutorial.html)
+
+#  手动 aop 补偿
+
+AbstractAdvisorAutoProxyCreator
